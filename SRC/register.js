@@ -1,4 +1,4 @@
-const mongoose = require("mongoose");
+const mongoose = require("mongoose")
 const registerSchema = new mongoose.Schema({
     username: {
         type: String,
@@ -8,6 +8,6 @@ const registerSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-});
-const Register = mongoose.model("Register", registerSchema);
+})
+const Register = mongoose.model("Register", registerSchema)
 module.exports = Register
